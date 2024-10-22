@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-modernize {
+    background-color: #1a1a1a;
+    height: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5em;
+}
+
+.nav-modernize img {
+    margin-left: 25px;
+    margin-top: 7px;
+}
+
+.nav-call {
+    color: white;
+    margin-left: auto;
+    font-size: 1em;
+    margin-bottom: 75px;
+    margin-right: 15px;
+}
+
+.navbar-2 {
+    background-color: #3d3a3a;
+    padding: 20px;
+    text-align: center;
+}
+
+.navbar-2 ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar-2 li {
+    margin-right: 10px;
+}
+
+.navbar-2 li:not(:last-child)::after {
+    content: "|";
+    margin-left: 10px;
+    color: #181717;
+}
+
+.navbar-2 a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar-2 a:hover {
+    color: #ccc;
+}
+
+.img-principal {
+    width: 100%;
+    height: auto;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    height: 200px;
+    box-sizing: border-box;
+    background-color: #1a1a1a;
+}
+
+.item {
+    display: flex;
+    align-items: flex-start;
+    /* Alinea los elementos en la parte superior del contenedor */
+    width: calc(25% - 20px);
+    /* Ajusta el ancho de los elementos */
+    margin-bottom: 20px;
+    /* Espacio inferior entre los items */
+    box-sizing: border-box;
+    overflow: hidden;
+    /* Opcional: para que las imágenes no salgan del borde del item */
+    padding: 10px;
+    /* Espacio interno dentro del item */
+}
+
+.item img {
+    height: auto;
+    border-radius: 8px;
+    margin-right: 15px;
+    object-fit: cover;
+}
+
+.text-content {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.item h4 {
+    margin: 10px 0;
+    font-size: 1.2em;
+    color: rgb(255, 102, 0);
+}
+
+.item p {
+    font-size: 1em;
+    color: #ffffff;
+}
+
+.container-buy {
+    height: 225px;
+    background-color: black;
+    display: flex;
+}
+
+.container-text {
+    margin-top: 60px;
+    margin-left: 65px;
+}
+
+.container-text h1,
+p {
+    color: white;
+}
+
+.btn-buy {
+    margin-left: 450px;
+    margin-top: 75px;
+}
+
+.btn-buy button {
+    background-color: rgb(255, 121, 32);
+    color: white;
+    padding: 15px;
+    width: 165px;
+    border-radius: 10px;
+}
+
+.container-portfolio {
+    background-color: #1a1a1a;
+}
+
+.container-portfolio-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.item-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 23%;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.item-2 img {
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+    border: 5px solid #303030;
+    /* Bordes grises de 5px de grosor */
+    border-radius: 0;
+    /* Asegura que los bordes sean cuadrados */
+    box-sizing: border-box;
+    /* Asegura que el tamaño total de la imagen incluya el borde */
+}
+
+.text-content-2 {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin-top: 20px;
+}
+
+.text-content-2 h3 {
+    color: rgb(255, 102, 0);
+}
+
+.portfolio-text {
+    display: flex;
+}
+
+.portfolio-text h2 {
+    color: white;
+}
+
+.derecha {
+    margin-left: 1550px;
+    margin-top: 40px;
+    color: rgb(255, 102, 0);
+    font-style: italic;
+}
+
+.izquierda {
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.btp {
+    margin-left: 1750px
+}
+
